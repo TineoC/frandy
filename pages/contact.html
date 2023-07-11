@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Page</title>
+	<link rel="stylesheet" href="../styles/normalize.css">
+	<link rel="stylesheet" href="../styles/index.css">
+	<link rel="stylesheet" href="../styles/contact.css">
+</head>
+
+<body>
+	<nav class="flex-row navbar">
+		<img src="../media/pictures/logo.png" width="300" alt="" srcset="">
+
+		<div class="links">
+			<div class="flex-row pages">
+				<a href="./activities.html">Nuestras Actividades</a>
+				<a href="./history.html">Nuestra Historia</a>
+				<a href="../index.html">Volver</a>
+				<a class="donate" target="_blank"
+					href="https://www.paypal.com/donate?token=eWKltef1YbMT79VcTY_gpi3JGmpod7ZYzKRjG1f-dPXbwUvQ3GNLEnRRU3EIh71-qdVAbJWWZ8FX4MUz">
+					Donar
+					<i class="fa-solid fa-circle-dollar-to-slot"></i>
+				</a>
+			</div>
+			<div class="social">
+				<a target="_blank" href="https://www.instagram.com/fundacionlasmargaritass/?igshid=MDM4ZDc5MmU%3D"> <i
+						class="fa-brands fa-instagram"></i>
+				</a>
+
+				<a target="_blank" href="https://www.tiktok.com/@flmsembrandoesperanza"> <i class="fa-brands fa-tiktok"></i>
+				</a>
+			</div>
+		</div>
+	</nav>
+
+	<main>
+		<form id="contact-form" class="form">
+			<div>
+				<label for="cedula">Cédula</label>
+				<input required min="0" type="number" name="cedula" id="cedula" placeholder="Inserte su cédula...">
+				<span class="result text-red"></span>
+			</div>
+
+			<div>
+				<label for="nombres">Nombres</label>
+				<input required type="text" name="nombres" id="nombres" placeholder="Inserte sus nombres...">
+			</div>
+			<div>
+				<label for="apellidos">Apellidos</label>
+				<input required type="text" name="apellidos" id="apellidos" placeholder="Inserte su apellidos...">
+			</div>
+			<div>
+				<label for="telefono">Número Telefónico</label>
+				<input type="tel" name="telefono" id="telefono" placeholder="Inserte su número telefónico...">
+			</div>
+			<textarea name="" id="" cols="30" rows="10" placeholder="Escriba alguna descripción..."></textarea>
+
+			<div>
+				<label for="terms-conditions"> <input required type="checkbox" name="terms-conditions" id="terms-conditions">
+					Acepta los <a target="_blank" href="./terms.html">términos y condiciones?</a>
+				</label>
+			</div>
+			<input type="submit" value="Enviar">
+		</form>
+	</main>
+
+	<footer class="flex-row">
+		<div class="col">
+			&copy; Francisco Montilla 2022
+		</div>
+		<div class="col">
+			<div class="footer-title">Nosotros</div>
+			<div class="items">
+				<a href="team.html">Nuestro Equipo</a>
+			</div>
+
+			<div class="items">
+				<a href="activities.html">Actividades</a>
+			</div>
+
+			<div class="items">
+				<a target="_blank" href="terms.html">Nuestros términos y condiciones</a>
+			</div>
+		</div>
+
+		<div class="col">
+			<div class="footer-title">Donaciones</div>
+
+			<div class="items">
+				<a href="contact.html">Contáctanos</a>
+			</div>
+
+			<div class="items">
+				<a target="_blank"
+					href="https://www.paypal.com/donate?token=eWKltef1YbMT79VcTY_gpi3JGmpod7ZYzKRjG1f-dPXbwUvQ3GNLEnRRU3EIh71-qdVAbJWWZ8FX4MUz">
+					Donar <i class="fa-solid fa-circle-dollar-to-slot"></i>
+				</a>
+				</a>
+			</div>
+		</div>
+	</footer>
+</body>
+<script type="module" src="../script/contact.js"></script>
+
+</html>

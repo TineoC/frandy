@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap");
+
+:root {
+	--blue: #0b3e91;
+	--green: #51a221;
+}
+
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	color: #060606;
+}
+
+.content {
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+	/*color: rgba(129, 211, 234, 1);*/
+	color: var(--green);
+}
+
+a.donate {
+	color: goldenrod;
+}
+
+a.donate:hover {
+	color: rgb(237, 175, 17);
+}
+
+.social a:hover {
+	text-decoration: none;
+}
+
+nav,
+main {
+	width: 90%;
+	margin: 0 auto;
+}
+
+nav {
+	width: 90%;
+	margin: 1rem auto;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: bolder;
+	font-size: calc(1rem + 0.5vw);
+}
+
+nav .pages {
+	gap: 1rem;
+	align-items: center;
+}
+
+body {
+	background-color: #fdfdfd;
+}
+
+footer {
+	background-color: var(--blue);
+	width: 100%;
+	color: #fff;
+	padding: 2rem 0;
+	justify-content: space-around;
+	align-items: center;
+	font-size: calc(0.8rem + 0.5vw);
+	margin-top: 2rem;
+}
+
+footer .col {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+footer .col .footer-title {
+	font-size: calc(1rem + 0.5vw);
+	font-weight: 600;
+	margin-bottom: 1rem;
+	font-style: italic;
+}
+
+.social {
+	display: flex;
+	gap: 0.6rem;
+}
+
+.social a i {
+	font-size: 1.5rem;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.flex-row img {
+	max-width: 50%;
+	min-width: 400px;
+}
+
+.flex-row-reverse {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.flex-col p {
+	margin: 0;
+}
+
+#home-img {
+	width: auto;
+	max-width: 30vw;
+	margin-right: 1rem;
+}
+
+.section-title {
+	color: var(--blue);
+	font-size: calc(2.5rem + 0.5vw);
+}
+
+.section {
+	font-size: calc(1.2rem + 0.5vw);
+	text-align: justify;
+}
+
+.text-gold {
+	color: goldenrod;
+}
+
+.text-red {
+	color: red;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.videos {
+	display: grid;
+	gap: 1rem;
+	justify-items: center;
+	align-items: center;
+	grid-auto-rows: 1024px;
+	grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+}
+
+.tiktok-color {
+	color: #ef2950;
+}
+
+.videos video {
+	height: auto;
+}
+
+.full-width {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.subtitle {
+	color: var(--green);
+}
